@@ -1,0 +1,689 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "cahp-ruby",
+        "directory": "/build/cahp-ruby",
+        "workspaceDir": "/build/cahp-ruby",
+        "sources": [
+            "/build/cahp-ruby/src/main/scala-2.12",
+            "/build/cahp-ruby/src/main/scala",
+            "/build/cahp-ruby/src/main/java",
+            "/build/cahp-ruby/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.12/3.0.2/chisel3_2.12-3.0.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel-iotesters_2.12/1.1.2/chisel-iotesters_2.12-1.1.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.12/1.0.2/firrtl_2.12-1.0.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.6.0/scopt_2.12-3.6.0.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl-interpreter_2.12/1.0.2/firrtl-interpreter_2.12-1.0.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.0/moultingyaml_2.12-0.4.0.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.7/antlr4-4.7.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"
+        ],
+        "out": "/build/cahp-ruby/.bloop/cahp-ruby",
+        "classesDir": "/build/cahp-ruby/.bloop/cahp-ruby/scala-2.12/classes",
+        "resources": [
+            "/build/cahp-ruby/src/main/resources",
+            "/build/cahp-ruby/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                "-deprecation",
+                "-feature",
+                "-unchecked",
+                "-language:reflectiveCalls"
+            ],
+            "jars": [
+                "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
+                "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
+                "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "options": [
+                    "-Duser.dir=/build/cahp-ruby"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "chisel3_2.12",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chisel3_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.12/3.0.2/chisel3_2.12-3.0.2.jar"
+                        },
+                        {
+                            "name": "chisel3_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.12/3.0.2/chisel3_2.12-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "chisel-iotesters_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chisel-iotesters_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel-iotesters_2.12/1.1.2/chisel-iotesters_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "chisel-iotesters_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel-iotesters_2.12/1.1.2/chisel-iotesters_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "firrtl_2.12",
+                    "version": "1.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "firrtl_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.12/1.0.2/firrtl_2.12-1.0.2.jar"
+                        },
+                        {
+                            "name": "firrtl_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.12/1.0.2/firrtl_2.12-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.scopt",
+                    "name": "scopt_2.12",
+                    "version": "3.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scopt_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.6.0/scopt_2.12-3.6.0.jar"
+                        },
+                        {
+                            "name": "scopt_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.6.0/scopt_2.12-3.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "firrtl-interpreter_2.12",
+                    "version": "1.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "firrtl-interpreter_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl-interpreter_2.12/1.0.2/firrtl-interpreter_2.12-1.0.2.jar"
+                        },
+                        {
+                            "name": "firrtl-interpreter_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl-interpreter_2.12/1.0.2/firrtl-interpreter_2.12-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_2.12",
+                    "version": "1.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4.jar"
+                        },
+                        {
+                            "name": "scalacheck_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.12",
+                    "version": "3.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.jcazevedo",
+                    "name": "moultingyaml_2.12",
+                    "version": "0.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "moultingyaml_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.0/moultingyaml_2.12-0.4.0.jar"
+                        },
+                        {
+                            "name": "moultingyaml_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.0/moultingyaml_2.12-0.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4",
+                    "version": "4.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "antlr4",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.7/antlr4-4.7.jar"
+                        },
+                        {
+                            "name": "antlr4",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.7/antlr4-4.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4-runtime",
+                    "version": "4.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "antlr4-runtime",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-jline",
+                    "version": "2.12.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-jline",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar"
+                        },
+                        {
+                            "name": "scala-jline",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.nscala-time",
+                    "name": "nscala-time_2.12",
+                    "version": "2.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nscala-time_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "1.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr-runtime",
+                    "version": "3.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "antlr-runtime",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar"
+                        },
+                        {
+                            "name": "antlr-runtime",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "ST4",
+                    "version": "4.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ST4",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar"
+                        },
+                        {
+                            "name": "ST4",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.abego.treelayout",
+                    "name": "org.abego.treelayout.core",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "org.abego.treelayout.core",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar"
+                        },
+                        {
+                            "name": "org.abego.treelayout.core",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish",
+                    "name": "javax.json",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.json",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar"
+                        },
+                        {
+                            "name": "javax.json",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.ibm.icu",
+                    "name": "icu4j",
+                    "version": "58.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "icu4j",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar"
+                        },
+                        {
+                            "name": "icu4j",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.jansi",
+                    "name": "jansi",
+                    "version": "1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jansi",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar"
+                        },
+                        {
+                            "name": "jansi",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.9.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

@@ -1,6 +1,10 @@
 # read design 
+# read_verilog -setattr keep_hierarchy VSPCore.v
 read_verilog VSPCore.v
 
+# set attribute
+setattr -set keep_hierarchy 1 CoreUnit
+ 
 # elaborate design hierarchy
 hierarchy -check -top VSPCore
 
@@ -20,4 +24,4 @@ abc -g gates,MUX
 clean -purge
 
 # write synthesized design
-write_json vsp-core-ruby.json
+write_json vsp-core-ruby2.json
